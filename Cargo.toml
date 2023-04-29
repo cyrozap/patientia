@@ -1,0 +1,14 @@
+[package]
+name = "patientia"
+version = "0.1.0"
+authors = ["cyrozap"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+description = "A library for parsing PDF files."
+repository = "https://github.com/cyrozap/patientia"
+categories = ["parser-implementations"]
+edition = "2018"
+
+[dependencies.nom]
+version = "4.2.3"
+features = ["verbose-errors"]
